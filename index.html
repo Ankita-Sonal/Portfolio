@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" class="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <nav>
+        <div><img src="https://i.ytimg.com/vi/TwYKwaEjJd4/maxresdefault.jpg" height="80px" width="250px"></div>
+        <input type="checkbox" id="click">
+        <labeL for="click" class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </labeL>
+        <ul>
+            <li><a class="active" href="#section1">Intro-section</a></li>
+            <li><a href="#section2">My Projects</a></li>
+            <li><a href="#section3">Skills/Achievements</a></li>
+            <li><a href="#section4">Contact Me</a></li>
+            
+        </ul>
+    </nav>
+    <div id="section1" class="section" >
+        
+        <img class="image" src="https://www.shutterstock.com/shutterstock/photos/2317594959/display_1500/stock-photo-smiling-positive-attractive-asian-young-woman-girl-in-beige-suit-formal-dress-portrait-elegant-2317594959.jpg"  width="50%" style="float:right;">
+        <div class="text">
+            <p><b><i><u>Ankita Singh:a Tech Enthusiast</u></i></b></p>
+           
+            <p><i>Myself Ankita Singh,a second year undegraduate student at IIT Kharagpur.I am a passionate Web Developer and Competitive Programmer,always ready to learn and explore more.</i>
+            
+            <p style="text-align: center;">
+                <a class="custom-button" href="#section4" >Contact Me</a>
+            </p>
+        </p>
+        </div>
+        
+    </div>
+    <div id="section2" class="projects">
+        <h1>My Projects</h1>
+               <!-- Card container -->
+    <div class="card-container">
+        <!-- Individual card -->
+        <div class="card">
+            <img src="https://static-00.iconduck.com/assets.00/tic-tac-toe-icon-2048x2048-g58f0u84.png" alt="Card Image">
+            <h3>Tic Tac Toe</h3>
+            <p><button class="visit">Visit</button></p>
+        </div>
+        
+        <div class="card">
+            <img src="https://png.pngtree.com/png-clipart/20210404/original/pngtree-quiz-ribbon-banner-png-image_6175444.jpg" height="1024px" width="1024px" alt="Card Image">
+            <h3>Quiz App</h3>
+            <p><button class="visit">Visit</button></p>
+        </div>
+
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwooAucap02xeOkIjEq42wILA_468Cl7MSNA&s" height="1024px" width="1024px" alt="Card Image">
+            <h3>Expense Tracker</h3>
+            <p><button class="visit">Visit</button></p>
+        </div>
+
+        <div class="card">
+            <img src="https://i.ytimg.com/vi/MIYQR-Ybrn4/maxresdefault.jpg" height="1024px" width="1024px" alt="Card Image">
+            <h3>Weather Web App</h3>
+            <p><button class="visit">Visit</button></p>
+        </div>
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXheLRg-4p8Z4LQRIzfwsQ7l3pBtRpj8cRUg&s" height="1024px" width="1024px" alt="Card Image">
+            <h3>Learning About Git</h3>
+            <p><button class="visit">Visit</button></p>
+        </div>
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYjCh6BYVa6Z6nJVy6Va50EkogmKXrOnFBew&s" height="1024px" width="1024px" alt="Card Image">
+            <h3>Local Repo</h3>
+            <p><button class="visit">Visit</button></p>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div id="section3" class="achievements">
+        <h1>My Skills and Achievements</h1>
+        <div class="grid-container">
+            <div class="grid-item item1"><img src="https://miro.medium.com/v2/resize:fit:1200/1*V-Jp13LvtVc2IiY2fp4qYw.jpeg" height="150px" width="200px">
+                
+                <p><h4>Web Development</h4></p></div>
+            <div class="grid-item item2"><img src="https://static.javatpoint.com/blog/images/how-to-learn-competitive-programming.png"  height="150px" width="200px">
+             <p><h4>Competitive Programming</h4></p>
+            </div>
+            <div class="grid-item item3">3</div>
+            <div class="grid-item item4">4</div>
+            <div class="grid-item item5"><img src="https://play-lh.googleusercontent.com/VTksrUzvPLb4m74NL8QC7UjPLVUO-vHJnNxmULiflQguhTz90zITAOyhsrCB8KDak-0" height="150px" width="300px">
+                <p><h4>Basic Finance</h4></p>
+            </div>
+            <div class="grid-item item6">6</div>
+        </div>
+    </div>
+    <div id="section4" class="contact">
+        <h1>Contact Me</h1>
+        <div class="form-container">
+            <form class="contact-form">
+                <h2>Contact Me</h2>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="date">Date of appointment</label>
+                <input type="datetime" id="date" name="date" required>
+                
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+       
+
+    
+</body>
+</html>
